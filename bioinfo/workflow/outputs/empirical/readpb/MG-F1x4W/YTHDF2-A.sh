@@ -1,0 +1,1 @@
+docker run --rm -v  /local_path/Stochastic-character-mapping/bioinfo/workflow:/data ubuntu20.04/pbmpi_mapstats:latest mpirun --allow-run-as-root  -np 2 readpb_mpi -x 100 2 200 -mapdistats  /data/outputs/empirical/pbmpi/MG-F1x4W/YTHDF2-A 2> /local_path/Stochastic-character-mapping/bioinfo/workflow/outputs/empirical/readpb/MG-F1x4W/YTHDF2-A.log

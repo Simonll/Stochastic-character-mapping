@@ -1,0 +1,1 @@
+docker run --rm -v  /local_path/Stochastic-character-mapping/bioinfo/workflow:/data ubuntu20.04/lfp codemlM7M8TpA -m M7 /data/outputs/simulation/MG-F1x4W/simu/TNFAIP3-0.2-8-1-8-A.conf 2> /local_path/Stochastic-character-mapping/bioinfo/workflow/outputs/simulation/MG-F1x4W/simu/TNFAIP3-0.2-8-1-8-A.log

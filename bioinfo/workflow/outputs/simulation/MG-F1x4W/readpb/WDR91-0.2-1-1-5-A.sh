@@ -1,0 +1,1 @@
+docker run --rm -v  //mnt/disk2/sll/Stochastic-character-mapping/bioinfo/workflow:/data ubuntu20.04/pbmpi_mapstats:latest mpirun --allow-run-as-root  -np 2 readpb_mpi -x 100 2 200 -mapdistats  /data/outputs/simulation/MG-F1x4W/pbmpi/WDR91-0.2-1-1-5-A 2> //mnt/disk2/sll/Stochastic-character-mapping/bioinfo/workflow/outputs/simulation/MG-F1x4W/readpb/WDR91-0.2-1-1-5-A.log

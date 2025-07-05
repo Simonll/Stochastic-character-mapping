@@ -1,0 +1,1 @@
+docker run --rm -v  /local_path/Stochastic-character-mapping/bioinfo/workflow:/data ubuntu20.04/pbmpi_mapstats:latest mpirun --allow-run-as-root  -np 2 readpb_mpi -x 1000 1 2000 -mapstats  /data/outputs/empirical/pbmpi/GTRAA/AA/BGLOBIN-GTRAA-A 2> /local_path/Stochastic-character-mapping/bioinfo/workflow/outputs/empirical/sub_mat/readpb/AA/BGLOBIN-GTRAA-A.log

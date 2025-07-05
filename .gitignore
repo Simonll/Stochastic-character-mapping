@@ -25,6 +25,5 @@
 *.fdb_latexmk
 *.fls
 bioinfo/workflow/.snakemake/*
-bioinfo/workflow/outputs/*
 bioinfo/workflow/scripts/__pycache__
 bioinfo/workflow/data/*
